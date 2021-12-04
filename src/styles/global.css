@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.root-app {
+  background-color: #ecf0f3;
+  color: #3c3e41;
+  font-size: 18px;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
