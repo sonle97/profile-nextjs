@@ -33,7 +33,7 @@ export const ModalStyled = styled(Modal)`
         }
       }
       .ant-modal-footer {
-        padding: 10px 0px;
+        padding: 10px 10px;
         .ant-btn {
           border-radius: 7px;
           font-weight: 500;
