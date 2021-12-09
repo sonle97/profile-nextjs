@@ -5,6 +5,7 @@ import { ResumeStyled } from "./styles";
 import Education from "./Education";
 import ProfessionalSkills from "./ProfessionalSkills";
 import Experience from "./Experience";
+import Section from "../../../ui/Section";
 
 const { TabPane } = Tabs;
 
@@ -35,7 +36,7 @@ const TabsContent: TabsContentProps[] = [
 function Resum() {
   return (
     <ResumeStyled>
-      <Tabs defaultActiveKey="1" className="tab-wrapper">
+      <Tabs defaultActiveKey="1" className="tab-wrapper" animated={true}>
         {TabsContent.map((tab: TabsContentProps) => (
           <TabPane tab={tab.name} key={tab.key}>
             {tab.component}

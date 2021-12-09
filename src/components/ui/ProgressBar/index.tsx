@@ -14,8 +14,8 @@ const Progress = ({ data }: any) => {
         maxCompleted={100}
         baseBgColor="#dce1e4"
         labelColor="#ffffff"
-        transitionDuration="10"
-        animateOnRender
+        transitionDuration="3s"
+        animateOnRender={true}
         className="progress-bar"
         height="16px"
         labelSize="14px"
