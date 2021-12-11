@@ -32,7 +32,7 @@ const ModalPortfolio = (props: BlogContentModalProps) => {
             {renderHTML(data.content)}
           </div>
           <div className="flex items-center mt-8">
-            <Button className="xs:mr-8 mr-4 flex items-center">
+            <Button className="xs:mr-8 mr-4 flex items-center hidden">
               LIKE THIS <AiOutlineLike className="text-red-3 ml-1" size={18} />
             </Button>
             <Button className="flex items-center">
